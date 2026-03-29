@@ -1,5 +1,5 @@
 #Zadania_Lab01
-'''python
+'''python.
 
 [Zadania uczelniaLab01.py](https://github.com/user-attachments/files/26333423/Zadania.uczelniaLab01.py)# Zadania_python
 [Uplo#Zadanie_1_Lab01
