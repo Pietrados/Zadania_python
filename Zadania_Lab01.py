@@ -124,7 +124,13 @@ from operator import index
 #     print("Aj szkoda")
 # else:
 #     print("Nie rozumiem odpowiedzi, wpisz tak lub nie")
-
+# imie = input("Podaj imie: ")
+# if imie == "Janusz":
+#     print("Poprawne imie")
+# if imie == "Grazyna":
+#     print("Poprawne imie")
+# else:
+#     print("Bledne imie")
 
 
 
