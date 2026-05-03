@@ -99,6 +99,92 @@
 #     print("Uzyskany procent:", procent)
 #     print("Uzyskana ocena:",ocena)
 
+#Zadanie 6
+# n = int(input("Podaj liczbe n:"))
+# suma = 0
+# for i in range (1, n + 1):
+#     suma = suma + (1 / i)
+# print("Suma dla n =", n, "wynosi", suma)
+#Zadanie 7
+# liczba = 1
+# while liczba <= 10:
+#     pierwiastek = liczba**0.5
+#     print("Pierwiastek z", liczba, "wynosi", round(pierwiastek, 2))
+#     liczba = liczba + 1
+#Zadanie 8
+# import math
+# a = float(input("Podaj liczbe a:"))
+# b = float(input("Podaj liczbe b:"))
+# c = float(input("Podaj liczbe c:"))
+# if a == 0:
+#     print("a nie moze byc zerem!")
+# else:
+#     delta = b**2 - 4*a*c
+#     print("Delta wynosi:", delta)
+#     if delta > 0:
+#         pierwiastek_z_delty = math.sqrt(delta)
+#         x1 = (-b + math.sqrt(delta))/(2*a)
+#         x2 = (-b - math.sqrt(delta))/(2*a)
+#         print("x1 =" ,round(x1))
+#         print("x2 =" ,round(x2))
+#     elif delta == 0:
+#         x0 = -b/(2*a)
+#         print("x0 =" , x0)
+#     elif delta < 0:
+#         print("Delta jest ujemna, wiec nie ma rozwiazan")
+#Zadanie 9
+# for liczba in range(1,1001):
+#     if liczba % 2 == 0:
+#         print(liczba, end=' ')
+#Zadanie 10
+# while True:
+#     dane1 = input("Podaj pierwsza liczbe: ")
+#     if dane1 == "0":
+#         print("Wpisanie '0' skutkuje zakonczeniem programu")
+#         break
+#     dane2 = input("Podaj druga liczbe: ")
+#     if dane2 == "0":
+#         print("Wpisanie '0' skutkuje zakonczeniem programu")
+#         break
+#     try:
+#         liczba1 = int(dane1)
+#         liczba2 = int(dane2)
+#         iloczyn = liczba1 * liczba2
+#         print("Iloczyn liczb to:", iloczyn)
+#     except ValueError:
+#         print("Blad, iloraz mozna wykonac tylko na liczbach calkowitych")
+#Zadanie 11
+# print('-'*35)
+# print("Uzytkownik: Kacper Pietraszkiewicz")
+# print('-'*35)
+# poprawne_hasla = ("haslo1234", "tajnehaslo")
+# wpisane_haslo = input("Podaj haslo:")
+# if wpisane_haslo in poprawne_hasla:
+#     print("Haslo jest poprawne")
+# else:
+#     print("Haslo nie jest poprawne, sprobuj ponwonie")
+#Zadanie 12
+# import random
+# moje_liczby = (random.sample(range(0, 100), 100))
+# print("Bez posortowania:", moje_liczby)
+# posortowane = sorted(moje_liczby)
+# print("Posortowane:", posortowane)
+#Zadanie 13
+# print('-'*35)
+# print("Uzytkownik: Kacper Pietraszkiewicz")
+# print('-'*35)
+# poprawne_hasla = ("haslo1234", "tajnehaslo")
+# while True:
+#     wpisane_haslo = input("Podaj haslo:")
+#     if wpisane_haslo in poprawne_hasla:
+#         print("Haslo jest poprawne")
+#         break
+#     else:
+#         print("Haslo nie jest poprawne, sprobuj ponwonie")
+#Zadanie 14
+# iloraz = lambda a, b, c: a / b / c
+# print(iloraz(36, 6, 6))
+
 
 
 
